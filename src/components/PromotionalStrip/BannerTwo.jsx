@@ -1,10 +1,10 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import productImg1 from "../../assets/productimg1.jpg";
-import productImg2 from "../../assets/productimg2.jpg";
-import productImg3 from "../../assets/productimg3.jpg";
-import productImg4 from "../../assets/productimg4.jpg";
-import "./BannerTwo.css"; // CSS import
+import productImg1 from "../../assets/caroimg1.jpg";
+import productImg2 from "../../assets/caroimg2.jpg";
+import productImg3 from "../../assets/caroimg3.jpg";
+import productImg4 from "../../assets/caroimg4.jpg";
+import "./BannerTwo.css";
 
 function BannerTwo() {
   return (
