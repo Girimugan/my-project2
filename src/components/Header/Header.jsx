@@ -1,15 +1,17 @@
-
+import React, { useContext } from "react";
 import netmedslogo from "../../assets/netmed.png";
 import { FaMapMarkerAlt, FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 import "./Header.css";
+import { CartContext } from "../../context/CartContext";
+import { Link } from "react-router-dom";
 
 function Logo() {
   return (
     <div className="box2">
-    <div className="logo-section">
-      <img src={netmedslogo} alt="Netmeds Logo" height="40" />
-    </div>
-    <h3>netmeds</h3>
+      <div className="logo-section">
+        <img src={netmedslogo} alt="Netmeds Logo" height="40" />
+      </div>
+      <h3>netmeds</h3>
     </div>
   );
 }
@@ -17,10 +19,10 @@ function Logo() {
 function LocationSelector() {
   return (
     <div className="box3">
-    <div className="location">
-      <FaMapMarkerAlt className="icon" />
-      <span>Deliver to Delhi, 110001</span>
-    </div>
+      <div className="location">
+        <FaMapMarkerAlt className="icon" />
+        <span>Deliver to Delhi, 110001</span>
+      </div>
     </div>
   );
 }
@@ -34,13 +36,17 @@ function SearchBar() {
   );
 }
 
-function CartIcon({ count = 0 }) {
+function CartIcon() {
+  const { cartItems } = useContext(CartContext);
+
   return (
     <div className="box4">
-    <div className="cart">
-      <FaShoppingCart className="icon" />
-      {count > 0 && <span className="cart-count">{count}</span>}
-    </div>
+      <Link to="/cart">
+        <div className="cart">
+          <FaShoppingCart className="icon" />
+          {cartItems.length > 0 && <span className="cart-count">{cartItems.length}</span>}
+        </div>
+      </Link>
     </div>
   );
 }
@@ -48,19 +54,17 @@ function CartIcon({ count = 0 }) {
 function UserMenu() {
   return (
     <div className="box5">
-    <div className="profile">
-      <FaUser className="icon" />
-      <span>Giri mug..</span>
-    </div>
+      <div className="profile">
+        <FaUser className="icon" />
+        <span>Giri mug..</span>
+      </div>
     </div>
   );
 }
 
-
 function Header() {
   return (
     <header className="box1">
-    
       <Logo />
       <LocationSelector />
       <SearchBar />
@@ -71,7 +75,6 @@ function Header() {
 }
 
 export default Header;
-
 
 
 

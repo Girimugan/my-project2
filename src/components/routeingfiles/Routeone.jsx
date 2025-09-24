@@ -2,6 +2,9 @@ import React from "react";
 import "./Routeone.css";
 import prescripimg1 from "../../assets/presciption.jpg";
 import offerimg1 from "../../assets/welcomeoffer.jpg";
+import offerimg2 from "../../assets/welcomeoffer2.jpg";
+import upiimg3 from "../../assets/upiimg1.jpg";
+import upiimg4 from "../../assets/upiimg2.jpg";
 
 function Routeone() {
 
@@ -26,10 +29,16 @@ function Routeone() {
       </div>
       <div className="box10">
         <img src={offerimg1} alt="eigth slider" />
+        <img src={offerimg2} alt="ninth slider" />
       </div>
 
-      <div className="upiboxs"></div>
-      
+        <div className="upibox3">
+              <img src={upiimg3} alt="sixth slider" />
+            </div>
+            <div className="upibox4">
+              <img src={upiimg4} alt="seventh slider" />
+            </div>
+
 
     </div>
 

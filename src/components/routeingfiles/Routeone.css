@@ -1,5 +1,5 @@
 .offer-container {
-  height: auto;       
+  height: auto;
   width: 95%;
   /* background-color: aqua;      */
   margin-left: 20px;
@@ -10,6 +10,7 @@
   height: auto;
   margin-left: 40px;
   border-radius: 20px;
+  margin-left: 40px;
 }
 
 .prescription {
@@ -18,6 +19,7 @@
   /* background-color: lightcoral; */
   margin-left: 30px;
 }
+
 .prescripOne {
   width: 620px;
   height: 150px;
@@ -36,6 +38,7 @@
   margin-left: 640px;
   border-radius: 20px;
 }
+
 .prescripThree {
   width: 300px;
   height: 150px;
@@ -44,6 +47,7 @@
   margin-left: 950px;
   border-radius: 20px;
 }
+
 .prescripOne img {
   width: 70px;
   height: 70px;
@@ -52,6 +56,7 @@
   border-radius: 20px;
 
 }
+
 .btn1 {
   position: relative;
   top: 30px;
@@ -62,7 +67,7 @@
   border-radius: 20px;
   background-color: #1eccb0;
   font-weight: bolder;
-  
+
 }
 
 .prescripbox1 {
@@ -76,12 +81,13 @@
 }
 
 .prescripbox2 {
-   width: 490px;
+  width: 490px;
   height: 30px;
   /* background-color: blue; */
-    margin-left: 110px;
-    margin-top: 5px;
+  margin-left: 110px;
+  margin-top: 5px;
 }
+
 .prescripbox3 {
   width: 200px;
   height: 35px;
@@ -89,10 +95,11 @@
   position: relative;
   top: 10px;
   margin-left: 10px;
-   font-size: x-large;
+  font-size: x-large;
   font-weight: 750;
 
 }
+
 .prescripbox4 {
   width: 200px;
   height: 85px;
@@ -108,10 +115,11 @@
   position: relative;
   top: 10px;
   margin-left: 10px;
-   font-size: x-large;
+  font-size: x-large;
   font-weight: bolder;
 
 }
+
 .prescripbox6 {
   width: 200px;
   height: 75px;
@@ -126,9 +134,31 @@
   background-color: aqua;
   margin-left: 80px;
 }
+.upibox3 {
+  width: 600px;
+  height: 150px;
+  background-color: lightcoral;
+  float: left;
+  margin-left: 65px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
 
+.upibox4 {
+  width: 600px;
+  height: 150px;
+  background-color: lightcoral;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 40px;
+  margin-top: 20px;
+  
+}
 
-
-
-
-
+.upibox3 img,
+.upibox4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  border-radius: 40px;
+}
