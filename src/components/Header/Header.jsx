@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import netmedslogo from "../../assets/netmed.png";
+import netmedslogo from "../../assets/netmedsbeta.svg";
 import { FaMapMarkerAlt, FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 import "./Header.css";
 import { CartContext } from "../../context/CartContext";
@@ -9,9 +9,8 @@ function Logo() {
   return (
     <div className="box2">
       <div className="logo-section">
-        <img src={netmedslogo} alt="Netmeds Logo" height="40" />
+        <img src={netmedslogo} alt="Netmeds Logo" height="45" />
       </div>
-      <h3>netmeds</h3>
     </div>
   );
 }
@@ -44,12 +43,15 @@ function CartIcon() {
       <Link to="/cart">
         <div className="cart">
           <FaShoppingCart className="icon" />
-          {cartItems.length > 0 && <span className="cart-count">{cartItems.length}</span>}
+          {cartItems.length > 0 && (
+            <span className="cart-count">{cartItems.length}</span>
+          )}
         </div>
       </Link>
     </div>
   );
 }
+
 
 function UserMenu() {
   return (

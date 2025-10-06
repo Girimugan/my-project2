@@ -12,7 +12,7 @@ import BannerTwo from "./components/PromotionalStrip/BannerTwo.jsx";
 import CategoryCarousel from "./components/specialStores/CategoryCarousel.jsx";
 import Routeone from "./components/routeingfiles/Routeone.jsx";
 import ProductList from "./components/ProductList.jsx";
-import Footer from "./components/Footer.jsx";
+import Footer from "./components/footer/Footer.jsx";
 import CartPage from "./components/CartPage.jsx";
 import "./App.css";
 
