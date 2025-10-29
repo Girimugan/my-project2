@@ -1,12 +1,12 @@
 .offer-container {
-  height: auto;
+  height: 500px;
   width: 95%;
   /* background-color: aqua;      */
   margin-left: 20px;
 }
 
 .box10 img {
-  width: 600px;
+  width: 500px;
   height: auto;
   margin-left: 40px;
   border-radius: 20px;
@@ -21,30 +21,30 @@
 }
 
 .prescripOne {
-  width: 620px;
+  width: 590px;
   height: 150px;
   background-color: lightsteelblue;
   position: relative;
-  top: 80px;
-  left: 10px;
+  top: 30px;
+  left: -10px;
   border-radius: 20px;
 }
 
 .prescripTwo {
-  width: 300px;
+  width: 200px;
   height: 150px;
   background-color: lightsteelblue;
-  margin-top: -70px;
-  margin-left: 640px;
+  margin-top: -120px;
+  margin-left: 585px;
   border-radius: 20px;
 }
 
 .prescripThree {
-  width: 300px;
+  width: 200px;
   height: 150px;
   background-color: lightsteelblue;
   margin-top: -150px;
-  margin-left: 950px;
+  margin-left: 795px;
   border-radius: 20px;
 }
 
@@ -76,7 +76,7 @@
   /* background-color: blue; */
   margin-top: -80px;
   margin-left: 110px;
-  font-size: x-large;
+  font-size: larger;
   font-weight: bolder;
 }
 
@@ -95,7 +95,7 @@
   position: relative;
   top: 10px;
   margin-left: 10px;
-  font-size: x-large;
+  font-size: larger;
   font-weight: 750;
 
 }
@@ -115,7 +115,7 @@
   position: relative;
   top: 10px;
   margin-left: 10px;
-  font-size: x-large;
+  font-size: larger;
   font-weight: bolder;
 
 }
@@ -128,37 +128,4 @@
   margin-left: 10px;
 }
 
-.upiboxs {
-  width: 95%;
-  height: 300px;
-  background-color: aqua;
-  margin-left: 80px;
-}
-.upibox3 {
-  width: 600px;
-  height: 150px;
-  background-color: lightcoral;
-  float: left;
-  margin-left: 65px;
-  border-radius: 40px;
-  margin-top: 20px;
-}
 
-.upibox4 {
-  width: 600px;
-  height: 150px;
-  background-color: lightcoral;
-  display: inline-block;
-  margin-left: 10px;
-  border-radius: 40px;
-  margin-top: 20px;
-  
-}
-
-.upibox3 img,
-.upibox4 img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; 
-  border-radius: 40px;
-}
